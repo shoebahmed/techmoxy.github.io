@@ -46,8 +46,8 @@ nav {
   position: static !important;
 }
 .mega-dropdown-menu {
-    padding: 20px 0px;
-    width: 100%;
+    padding: 20px 0px 20px 20px;
+    width: 80%;
     box-shadow: none;
     -webkit-box-shadow: none;
 }
@@ -67,12 +67,12 @@ nav {
 
 .mega-dropdown-menu > li ul > li > a:hover,
 .mega-dropdown-menu > li ul > li > a:focus {
-  text-decoration: none;
+  text-decoration: underline;
 }
 .mega-dropdown-menu .dropdown-header {
   font-size: 18px;
   font-family: "Roboto Regular";
-  color: #ff3546;
+  color: #1b75bc;
   padding: 5px 60px 5px 5px;
   line-height: 30px;
 }
@@ -110,5 +110,17 @@ nav {
 }
 
 .imgwrapper {
-  margin-top: -10px;
+  margin-top: -19.51px;
+}
+
+.footer-bottom {
+  background: #100e1c;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  display: flex;
+}
+
+.panel-body {
+  padding: 15px;
+  padding-left: 0px;
 }
