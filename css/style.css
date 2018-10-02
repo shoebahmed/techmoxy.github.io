@@ -119,7 +119,10 @@ nav {
   padding-top: 15px;
   padding-bottom: 10px;
   display: flex;
-  position: sticky;
+  position: fixed;
+  width: 100%;
+  left: 0;
+  bottom: 0;
 }
 
 .panel-body {
