@@ -30,11 +30,11 @@
 		</button>
 		<a class="navbar-brand" href="../index.html" style="height: 54px; padding: 11px 15px;"><img src="../images/logo.png"/></a>
 	</div>
-	
+
 	<div class="collapse navbar-collapse js-navbar-collapse">
 		<ul class="nav navbar-nav">
             <li class="dropdown mega-dropdown nav-topmenu">
-    			<a href="#" class="dropdown-toggle " data-toggle="dropdown">Services</a>		
+    			<a href="#" class="dropdown-toggle " data-toggle="dropdown">Services</a>
 				<ul class="dropdown-menu mega-dropdown-menu">
 					<li class="col-sm-3">
     					<ul>
@@ -51,14 +51,14 @@
 							<li><a href="../security/security.html">Security</a></li>
 						</ul>
 					</li>
-					
+
 					<li class="col-sm-3">
 						<ul>
 							<li class="dropdown-header">WIRELESS SETUP</li>
                            				 <li><a href="../wireless/setup.html">Wireless Setup</a></li>
 							<li><a href="../wireless/support.html">Wireless Support</a></li>
 							<li><a href="../wireless/optimization.html">Wireless Optimization</a></li>
-							<li><a href="../wireless/signalextension.html">Wireless Signal Extension</a></li>                         
+							<li><a href="../wireless/signalextension.html">Wireless Signal Extension</a></li>
 						</ul>
 					</li>
 					<li class="col-sm-3">
@@ -69,8 +69,8 @@
 						</ul>
 					</li>
 
-                    
-				</ul>				
+
+				</ul>
 			</li>
             <li class="nav-topmenu"><a href="../aboutus/aboutus.html">About Us</a></li>
 	    <li class="nav-topmenu"><a href="#">Contact</a></li>
@@ -81,67 +81,62 @@
 <div class="imgwrapper">
    <img src="../images/aboutus.png" style="width:100%;" class="img-responsive">
 </div>
-<div class="container">    
-            
+<div class="container">
+
     <div id="signupbox" style=" margin-top:50px" class="mainbox col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
         <div class="panel panel-info">
             <div class="panel-heading">
                 <div class="panel-title"><span style="font-family: Roboto Bold"></span></div>
-            </div>  
+            </div>
             <div class="panel-body" >
-                <form method="post" action="contact.php">
-                    <input type='hidden' name='csrfmiddlewaretoken' value='XFe2rTYl9WOpV8U6X5CfbIuOZOELJ97S' />
-                            
-		
-                    <form  class="form-horizontal" method="post" >
-                        
-                        
+                <form  class="form-horizontal" method="post" action="email.php">
+
+
                         <div id="div_id_username" class="form-group required">
-                            <label for="id_username" class="control-label col-md-4  requiredField"><span style="font-family: Roboto Bold"> Name</span><span class="asteriskField" >*</span> </label>
+                            <label for="first_name" class="control-label col-md-4  requiredField"><span style="font-family: Roboto Bold"> Name</span><span class="asteriskField" >*</span> </label>
                             <div class="controls col-md-8 ">
-                                <input class="input-md  textinput textInput form-control" id="id_username" maxlength="30" name="username" placeholder="Enter your name" style="margin-bottom: 10px" type="text" />
+                                <input class="input-md  textinput textInput form-control" maxlength="30" name="first_name" placeholder="Enter your name" style="margin-bottom: 10px" type="text" />
                             </div>
                         </div>
 
-			<div id="div_id_contact" class="form-group required">
-                            <label for="id_username" class="control-label col-md-4  requiredField"><span style="font-family: Roboto Bold"> Contact Number</span><span class="asteriskField" >*</span> </label>
+					    <div id="div_id_contact" class="form-group required">
+                            <label for="telephone" class="control-label col-md-4  requiredField"><span style="font-family: Roboto Bold"> Contact Number</span><span class="asteriskField" >*</span> </label>
                             <div class="controls col-md-8 ">
-                                <input class="input-md  textinput textInput form-control" id="id_contact" maxlength="15" name="contact" placeholder="Enter your contact number" style="margin-bottom: 10px" type="integer" />
+                                <input class="input-md  textinput textInput form-control" maxlength="15" name="telephone" placeholder="Enter your contact number" style="margin-bottom: 10px" type="integer" />
                             </div>
                         </div>
 
                         <div id="div_id_email" class="form-group required">
-                            <label for="id_email" class="control-label col-md-4  requiredField"><span style="font-family: Roboto Bold"> E-mail</span><span class="asteriskField">*</span> </label>
+                            <label for="email" class="control-label col-md-4  requiredField"><span style="font-family: Roboto Bold"> E-mail</span><span class="asteriskField">*</span> </label>
                             <div class="controls col-md-8 ">
-                                <input class="input-md emailinput form-control" id="id_email" name="email" placeholder="Your current email address" style="margin-bottom: 10px" type="email" />
-                            </div>     
-                        </div>
-                        
-                        
-                        <div id="div_id_name" class="form-group required"> 
-                            <label for="id_name" class="control-label col-md-4  requiredField"><span style="font-family: Roboto Bold"> Your Message</span><span class="asteriskField">*</span> </label> 
-                            <div class="controls col-md-8 "> 
-				<textarea class="form-control" id="id_name" name="name" placeholder="Enter Your Message Here" style="margin-bottom: 10px; resize: none;" rows="10"></textarea>
-                                
+                                <input class="input-md emailinput form-control" name="email" placeholder="Your current email address" style="margin-bottom: 10px" type="email" />
                             </div>
                         </div>
-                        
-                        <div class="form-group"> 
+
+
+                        <div id="div_id_name" class="form-group required">
+                            <label for="comments" class="control-label col-md-4  requiredField"><span style="font-family: Roboto Bold"> Your Message</span><span class="asteriskField">*</span> </label>
+                            <div class="controls col-md-8 ">
+				<textarea class="form-control" name="comments" placeholder="Enter Your Message Here" style="margin-bottom: 10px; resize: none;" rows="10"></textarea>
+
+                            </div>
+                        </div>
+
+                        <div class="form-group">
                             <div class="aab controls col-md-4 "></div>
                             <div class="controls col-md-8 ">
                                 <input type="submit" name="Signup" value="Submit" class="btn btn-primary btn btn-info" id="submit-id-signup" />
-                                
+
                             </div>
-                        </div> 
-                            
+                        </div>
+
                     </form>
 
-                </form>
             </div>
         </div>
-    </div> 
+    </div>
 </div>
-</div>            
+</div>
 <br><br><br><br><br><br><br><br>
     <div class="footer-bottom">
         <div class="container">
