@@ -176,17 +176,15 @@ $headers = 'From: '.$email_from."\r\n".
 <div class="container">
 <div class="row">
  <div class ='col-sm-12' style="margin-bottom:100px;">
-<h2 class="panel-body" style="text-align: left!important; font-size: 35px; line-height: 1.5; font-family: Roboto Bold;">We are happy to here from you!</h2>
-<h5 style="line-height: 1.8; font-family: Roboto Light; font-size: 18px;">Your message has been successfully sent.</h5>
-<h5 style="line-height: 1.8; font-family: Roboto Light; font-size: 18px;">Click here to get back at <a href="http://techmoxy.com/index.html">Techmoxy</a></h5>
-
-     </div>
-   </div>
+	<h2 class="panel-body" style="text-align: left!important; font-size: 35px; line-height: 1.5; font-family: Roboto Bold;">Thank you for submitting your feedback and comments.</h2>
+	<h5 style="line-height: 1.8; font-family: Roboto Light; font-size: 18px;">Your message has been successfully sent.</h5>
+ </div>
+</div>
 </div>
 
     <div class="footer-bottom">
         <div class="container">
-            <p class="pull-left" style="color: #918f9d; font-family: Roboto Regular; font-size: 16px;"> Copyright © 2018 Techmoxy. All Right Reserved.</p>
+            <p class="pull-left" style="color: #918f9d; font-family: Roboto Regular; font-size: 16px;"> Copyright ï¿½ 2018 Techmoxy. All Right Reserved.</p>
         </div>
     </div>
 
