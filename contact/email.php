@@ -184,7 +184,7 @@ $headers = 'From: '.$email_from."\r\n".
 
     <div class="footer-bottom">
         <div class="container">
-            <p class="pull-left" style="color: #918f9d; font-family: Roboto Regular; font-size: 16px;"> Copyright � 2018 Techmoxy. All Right Reserved.</p>
+            <p class="pull-left" style="color: #918f9d; font-family: Roboto Regular; font-size: 16px;"> Copyright © 2018 Techmoxy. All Right Reserved.</p>
         </div>
     </div>
 
