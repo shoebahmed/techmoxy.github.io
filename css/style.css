@@ -133,3 +133,19 @@ nav {
 html {
     overflow-y: scroll; 
 }
+
+.container-margin {
+margin-bottom:70px;
+}
+
+.col3-padding{
+  padding-bottom:10px;
+}
+
+.img-width{
+  width:100%;
+}
+
+body{
+  background: #dcdcdc;
+}
