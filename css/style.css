@@ -197,6 +197,10 @@ padding: 50px 50px 150px 15px;
     width:50%;
   }
 
+  .row-margin1{
+  margin-top: 40px;
+}
+
 @media only screen and (max-width: 768px) {
   /* For mobile phones: */
   .moody-logo{
@@ -219,7 +223,7 @@ padding: 50px 50px 150px 15px;
   .bt-logo{
     padding-top: 0px;
     margin-top: 21px;
-    padding-left: 47px;
+    padding-left: 30px;
   }
 
   .rh-logo{
@@ -275,4 +279,41 @@ padding: 50px 50px 150px 15px;
   margin-top: 14px;
 }
 
+@media only screen and (min-width:992px){
+  /* For ipad pro: */
 
+  .moody-logo{
+    width:100%
+  }
+
+  .omnilink-logo{
+    width:90%;
+    padding-bottom: 40px;
+    margin-top: 0px;
+    margin-left: 15px;
+  }
+
+  .randstad-logo {
+    width: 100%;
+    margin-top: 10px;
+    margin-left: 0px;
+  }
+
+  .container-margin{
+    margin-right: 70px;
+    padding: 50px 100px 150px 40px;
+  }
+
+  .imgwrapper{
+    margin-right: -18px;
+  }
+
+  .row-margin{
+    margin-left: 30px;
+  }
+
+  .row-margin1{
+  margin-top: 40px;
+  margin-right: -70px;
+  }
+}
