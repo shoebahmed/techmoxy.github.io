@@ -136,6 +136,7 @@ html {
 
 .container-margin {
 padding: 50px 50px 150px 15px;
+margin-right: 50px;
 }
 
 .main-container{
@@ -172,17 +173,19 @@ padding: 50px 50px 150px 15px;
 }
 
 .glencore-logo{
-  width:80%;
-  margin-left: 110px;
+  width:70%;
+  margin-left: 105px;
 }
 
 .rh-logo{
   width:90%;
+   margin-left: 13px;
 }
 
 .weil-logo{
   padding-top: 15px;
   width:90%;
+  margin-left: -40px;
 }
 
 .nesle-logo{
@@ -199,6 +202,11 @@ padding: 50px 50px 150px 15px;
 
   .row-margin1{
   margin-top: 40px;
+
+}
+
+.row-margin{
+  margin-right: 5px;
 }
 
 @media only screen and (max-width: 768px) {
@@ -272,6 +280,7 @@ padding: 50px 50px 150px 15px;
 
   .container-margin{
     padding-right: 15px;
+    margin-right: auto;
   }
 }
 
@@ -279,8 +288,9 @@ padding: 50px 50px 150px 15px;
   margin-top: 14px;
 }
 
-@media only screen and (min-width:992px){
-  /* For ipad pro: */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px){
+  /* @media only screen and (min-width: 769px) and (max-width:992px)*/
+  /* For ipad: */
 
   .moody-logo{
     width:100%
@@ -295,12 +305,44 @@ padding: 50px 50px 150px 15px;
 
   .randstad-logo {
     width: 100%;
-    margin-top: 10px;
+    margin-top: 8px;
     margin-left: 0px;
   }
 
+  .bt-logo{
+    width:160%;
+    margin-top: 8px;
+    margin-left: -30px
+  }
+
+  .glencore-logo{
+    margin-top: 32px;
+  }
+
+  .lb-logo{
+    width:100%;
+    margin-left: 20px;
+    margin-top: 30px;
+  }
+
+  .fpv-logo{
+    width:100%;
+    margin-top: 27px;
+  }
+
+  .nsi-logo{
+    margin-left: 0px;
+    margin-top: 25px;
+  }
+
+  .weil-logo{
+    margin-top: 27px;
+    width:90%;
+    margin-left: -25px;
+  }
+
   .container-margin{
-    margin-right: 70px;
+    margin-right: 52px;
     padding: 50px 100px 150px 40px;
   }
 
@@ -316,4 +358,29 @@ padding: 50px 50px 150px 15px;
   margin-top: 40px;
   margin-right: -70px;
   }
+
+  .imgwrapper{
+    margin-right: -83px;
+  }
+
+  .main-container{
+    margin-right: -83px;
+  }
+}
+
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px){
+/* For ipad pro: */
+  .moody-logo{
+    width:85%
+  }
+
+  .bt-logo{
+    width:100%
+  }
+
+  .container-margin{
+    margin-right: auto;
+  }
+
 }
