@@ -136,7 +136,7 @@ html {
 
 .container-margin {
 padding: 50px 50px 150px 15px;
-margin-right: 50px;
+margin-right: auto;
 }
 
 .main-container{
@@ -376,7 +376,7 @@ margin-right: 50px;
   }
 
   .bt-logo{
-    width:100%
+    width:110%
   }
 
   .container-margin{
