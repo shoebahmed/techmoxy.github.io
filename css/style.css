@@ -242,7 +242,7 @@ margin-right: auto;
 
   .lb-logo{
     width:100%;
-    margin-left: 2px;
+    margin-left: 12px;
     margin-top: 45px;
   }
 
@@ -282,10 +282,24 @@ margin-right: auto;
     padding-right: 15px;
     margin-right: auto;
   }
+  
+  .img-height{
+    height: 250px;
+  }
+  
+  .tech-logo{
+    height: 54px !important; 
+    padding: 0px 15px !important;
+  }
 }
 
 .row-margin{
   margin-top: 14px;
+}
+
+.tech-logo{
+  height: 54px; 
+  padding: 11px 15px;
 }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px){
