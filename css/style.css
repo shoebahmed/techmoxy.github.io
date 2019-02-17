@@ -135,8 +135,8 @@ html {
 }
 
 .container-margin {
-padding: 50px 50px 150px 15px;
-margin-right: auto;
+    padding: 50px 50px 80px 15px;
+    margin-right: auto;
 }
 
 .main-container{
