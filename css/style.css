@@ -189,21 +189,32 @@ html {
 }
 
 .nesle-logo{
-    width:100%;
-  }
-
-  .fpv-logo{
-    width:100%;
-  }
-
-  .nsi-logo{
-    width:50%;
-  }
-
-  .row-margin1{
-  margin-top: 40px;
-
+  width:100%;
 }
+
+.fpv-logo{
+  width:100%;
+}
+
+.nsi-logo{
+  width:50%;
+}
+
+.gl-logo{
+  width:77%;
+  margin-left: 40px;
+}
+
+.bnp-logo{
+  width:86%;
+  margin-left: 45px;
+  margin-top: -12px;
+}
+
+.row-margin1{
+  margin-top: 40px;
+}
+
 
 .row-margin{
   margin-right: 5px;
@@ -271,6 +282,18 @@ html {
   .weil-logo{
     margin-top: 40px;
     width:90%;
+    margin-left: 20px;
+  }
+
+  .gl-logo{
+    margin-top: 40px;
+	width:77%;
+    margin-left: 40px;
+  }
+
+  .bnp-logo{
+	margin-top: 40px;
+    width:86%;
     margin-left: 20px;
   }
 
